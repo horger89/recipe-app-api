@@ -9,8 +9,8 @@ class CalcTest(SimpleTestCase):
     # Test the calc module
 
     def test_add_numbers(self):
-        #adding number together
-        res = calc.add(5,6)
+        # adding number together
+        res = calc.add(5, 6)
 
         self.assertEqual(res, 11)
 
